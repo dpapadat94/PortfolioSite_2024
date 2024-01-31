@@ -12,7 +12,7 @@ function Work() {
             My Projects
           </p>
           <p className="py-3 text-xl text-gray-300">
-            Check out some of the projects ive worked on recently
+            Check out some of the projects I&apos;ve worked on recently:
           </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
@@ -47,10 +47,10 @@ function Work() {
                 Code
               </a>
               <p className="text-s mt-1">
-                Responsive web application that allows users to search for and
-                filter through movies and tv-shows. Clicking any of the movies
-                will generate a details page for the individual movie. data
-                pulled from the TMDB API.
+                A responsive web app that allows users to search and filter
+                through movies and television shows. By clicking any of the
+                titles, a details page will be generated for that movie or show.
+                All data is pulled from the TMDB API.
               </p>
               <div className="flex  mt-5 justify-around  ">
                 <p className="text-xs font-bold">React</p>
@@ -92,9 +92,9 @@ function Work() {
                 Code
               </a>
               <p className="text-s mt-1">
-                Responsive e-commerce websites that features working cart
-                functionality created with the react context API. Products on
-                site are fetched from the FakeStore API.
+                A responsive e-commerce website that features working cart
+                functionality created with the React Context API. Products
+                listed on this site are fetched from the FakeStore API.
               </p>
               <div className="flex  mt-5 justify-around  ">
                 <p className="text-xs font-bold">React</p>
@@ -137,10 +137,9 @@ function Work() {
               </a>
               <p className="text-s mt-1">
                 {" "}
-                This app is a general knowledge quiz. The quiz will let you know
-                in real time if your answer is correct, and will track your
-                overall score through the quiz to display the results once all
-                questions have been answered.{" "}
+                Quiz app is a general knowledge quiz that shows results in real
+                time. This application also tracks your answers to display a
+                total score on a results page when finished with entire quiz.
               </p>
               <div className="flex  mt-5 justify-around  ">
                 <p className="text-xs font-bold">React</p>
@@ -164,7 +163,7 @@ function Work() {
 
             <div className=" p-4">
               <h2 className="font-bold text-2xl mb-2 ">
-                To do App (with firebase)
+                Task Manager (with Firebase)
               </h2>
               <a
                 href="https://todoappfirebasedp.netlify.app/"
@@ -183,10 +182,10 @@ function Work() {
                 Code
               </a>
               <p className="text-s mt-1">
-                Responsive to do list web app that allows users to add items,
-                delete items or mark them as completed. The App uses the
-                firestore from firebase as the backend to manage the storage of
-                all tasks
+                To Do list web app that allows users to add tasks and mark them
+                as completed. Users can also delete tasks. Task Manager uses the
+                Firestore from Firebase as the backend to manage the storage of
+                all tasks.
               </p>
               <div className="flex  mt-5 justify-around  ">
                 <p className="text-xs font-bold">React</p>

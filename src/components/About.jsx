@@ -20,8 +20,8 @@ function About() {
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
             Graduated from The University of North Carolina at Charlotte, with a
-            Bachelor&apos;s degree in marketing with a concentration in
-            analytics
+            Bachelor&apos;s degree in Marketing with a Concentration in
+            Analytics.
           </p>
         </li>
         <li className="mb-10 ms-4">
@@ -30,7 +30,7 @@ function About() {
             Febuary 2022
           </time>
           <h3 className="text-lg font-semibold text-white dark:text-white">
-            Started my coding journey
+            Started My Coding Journey
           </h3>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
             In January of 2022 while working in sales I began learning to code.
@@ -47,9 +47,9 @@ function About() {
             Web Development Bootcamp
           </h3>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-            Attended TrueCoders Web development bootcamp. A full stack bootcamp
+            Attended TrueCoders Web Development Bootcamp. A full stack bootcamp
             which helped me further develop my front end skillset while also
-            introducing me to back end technologies such as NodeJs and SQL
+            introducing me to back end technologies, such as NodeJs and SQL.
           </p>
         </li>
       </ol>

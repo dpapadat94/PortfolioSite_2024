@@ -23,30 +23,31 @@ function Home() {
         </p>
         <div className="flex justify-start gap-5 ">
           <Link
-            className="hidden sm:flex "
+            className="hidden sm:flex text-white border-2 rounded-full px-8 py-3 my-2  items-center hover:bg-[#4CB9E7] cursor-pointer  "
             activeClass="active"
             to="work"
             smooth={true}
             duration={500}
           >
-            <button className=" text-white border-2 rounded-full px-8 py-3 my-2 flex items-center hover:bg-[#4CB9E7] ">
-              See my Work
-              <HiArrowNarrowRight className="ml-3" />
-            </button>
+            See my Work
+            <HiArrowNarrowRight className="ml-3" />
           </Link>
 
-          <a className="" href="/">
-            <button className="max-sm:text-sm  text-white rounded-full  border-2 px-8 py-3 my-2 sm:flex items-center   hover:bg-[#4CB9E7]">
-              My Resume
-              <HiArrowNarrowDown className="ml-3 hidden sm:flex" />
-            </button>
+          <a
+            className="max-sm:text-sm  text-white rounded-full  border-2 px-8 py-3 my-2 sm:flex items-center   hover:bg-[#4CB9E7]"
+            rel="noreferrer"
+            target="_blank"
+            href="DennisPapadatos_Resume.pdf"
+          >
+            My Resume
+            <HiArrowNarrowDown className="ml-3 hidden sm:flex" />
           </a>
           <div className=" hidden md:flex justify-start mx-10 gap-5">
             <a
               rel="noreferrer"
               target="_blank"
               className="flex justify-between items-center w-fit text-gray-300"
-              href="https://github.com/dpapadat94"
+              href="https://www.linkedin.com/in/dennis-papadatos-dev94/"
             >
               <li className="w-[55px] h-[55px] flex  rounded-full  bg-[#0B66C2] justify-between items-center  bg-transparent">
                 <FaLinkedin size={30} />

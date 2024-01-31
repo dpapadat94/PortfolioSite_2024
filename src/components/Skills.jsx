@@ -20,7 +20,7 @@ function Skills() {
             Skills
           </p>
           <p className="py-4 text-xl">
-            These are the technologies i have the most experience with
+            These are the technologies I have the most experience with:
           </p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">

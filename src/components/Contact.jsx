@@ -17,6 +17,9 @@ function Contact() {
           </p>
           <ul className="my-4  sm:text-xl">
             <li>
+              <b>Name</b>: Dennis Papadatos
+            </li>
+            <li>
               {" "}
               <b>Phone</b>: 704-960-8535
             </li>

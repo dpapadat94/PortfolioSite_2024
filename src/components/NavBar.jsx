@@ -2,7 +2,7 @@ import { useState } from "react";
 import Logo from "../assets/dennis3.png";
 
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+
 import { Link } from "react-scroll";
 
 function NavBar() {
