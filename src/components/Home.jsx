@@ -37,7 +37,7 @@ function Home() {
             className="max-sm:text-sm  text-white rounded-full  border-2 px-8 py-3 my-2 sm:flex items-center   hover:bg-[#4CB9E7]"
             rel="noreferrer"
             target="_blank"
-            href="DennisPapadatos_Resume.pdf"
+            href="resumeSS.png"
           >
             My Resume
             <HiArrowNarrowDown className="ml-3 hidden sm:flex" />
