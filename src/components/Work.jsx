@@ -1,7 +1,7 @@
 import Movie from "../assets/moviedb.png";
 import Shop from "../assets/store.png";
 import Quiz from "../assets/quizpic.png";
-import Todo from "../assets/todoapp.png";
+import Todo from "../assets/to-doIMG.png";
 
 function Work() {
   return (
@@ -162,9 +162,7 @@ function Work() {
             </a>
 
             <div className=" p-4">
-              <h2 className="font-bold text-2xl mb-2 ">
-                Task Manager (with Firebase)
-              </h2>
+              <h2 className="font-bold text-2xl mb-2 ">Task Manager</h2>
               <a
                 href="https://todoappfirebasedp.netlify.app/"
                 rel="noreferrer"
@@ -182,10 +180,10 @@ function Work() {
                 Code
               </a>
               <p className="text-s mt-1">
-                To Do list web app that allows users to add tasks and mark them
-                as completed. Users can also delete tasks. Task Manager uses the
-                Firestore from Firebase as the backend to manage the storage of
-                all tasks.
+                To Do list web application that allows users to add/delete items
+                and select one of three priority levels for the task. The user
+                can mark tasks as complete which will send the task to a
+                seperate list of completed tasks.
               </p>
               <div className="flex  mt-5 justify-around  ">
                 <p className="text-xs font-bold">React</p>

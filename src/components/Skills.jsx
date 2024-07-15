@@ -3,7 +3,7 @@ import CSS from "../assets/css.png";
 import JS from "../assets/javascript.png";
 import React from "../assets/react.png";
 import GitHub from "../assets/github.png";
-import FireBase from "../assets/firebase.png";
+import Node from "../assets/nodepic.png";
 import GIT from "../assets/git1.png";
 import TW from "../assets/tailwind.png";
 
@@ -41,6 +41,10 @@ function Skills() {
             <p className="my-4">React</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Node} alt="html icon" />
+            <p className="my-4">Node JS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={TW} alt="html icon" />
             <p className="my-4">Tailwind CSS</p>
           </div>
@@ -51,10 +55,6 @@ function Skills() {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={GitHub} alt="html icon" />
             <p className="my-4">GitHub</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={FireBase} alt="html icon" />
-            <p className="my-4">Firebase</p>
           </div>
         </div>
       </div>
