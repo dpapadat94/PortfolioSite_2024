@@ -150,7 +150,7 @@ function Work() {
           </div>
           <div className="grid grid-cols-1   bg-white rounded-md ">
             <a
-              href="https://todoappfirebasedp.netlify.app/"
+              href="https://prioritytodolist.netlify.app/"
               rel="noreferrer"
               target="_blank"
             >
@@ -164,7 +164,7 @@ function Work() {
             <div className=" p-4">
               <h2 className="font-bold text-2xl mb-2 ">Task Manager</h2>
               <a
-                href="https://todoappfirebasedp.netlify.app/"
+                href="https://prioritytodolist.netlify.app/"
                 rel="noreferrer"
                 target="_blank"
                 className="bg-[#4CB9E7] text-white px-2 py-1   rounded-full text-sm my-1"
@@ -172,7 +172,7 @@ function Work() {
                 Live Demo
               </a>
               <a
-                href="https://github.com/dpapadat94/To-do-firebase"
+                href="https://github.com/dpapadat94/T0-do-list-June24"
                 rel="noreferrer"
                 target="_blank"
                 className="bg-[#4CB9E7] text-white px-2 py-1 mx-2 rounded-full text-sm my-1"
@@ -188,7 +188,6 @@ function Work() {
               <div className="flex  mt-5 justify-around  ">
                 <p className="text-xs font-bold">React</p>
                 <p className="text-xs font-bold">Tailwind CSS</p>
-                <p className="text-xs font-bold">Firebase</p>
                 <p className="text-xs font-bold">Vite</p>
               </div>
             </div>
