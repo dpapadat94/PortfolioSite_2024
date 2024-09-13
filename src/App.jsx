@@ -8,7 +8,7 @@ import Work from "./components/Work";
 
 function App() {
   const openResume = () => {
-    window.open("/res24.pdf", "_blank");
+    window.open("/DP-Resume.pdf", "_blank");
   };
 
   return (
