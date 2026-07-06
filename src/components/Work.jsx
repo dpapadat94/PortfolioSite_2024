@@ -1,6 +1,6 @@
 import Movie from "../assets/moviedb.png";
 import Shop from "../assets/store.png";
-import Quiz from "../assets/quizpic.png";
+import Roots from "../assets/RootsHP.png";
 // import Todo from "../assets/to-doIMG.png";
 import Landscape from "../assets/landscape.png";
 
@@ -11,17 +11,19 @@ const projects = [
     title: "Regenerative Garden",
     desc: "A responsive website I built for a local landscaping and gardening business in charlotte, NC. Optimized for SEO best practices ",
     tech: ["React", "Tailwind", "React Router", "Vite"],
+    freelance: true,
     demoLink: "https://regenerativelandscapeclt.com/",
     gitLink: "https://github.com/dpapadat94/regenerative-landscape",
   },
   {
     id: 2,
-    img: Movie,
-    title: "Movie Database",
-    desc: "A responsive web app that allows users to search and filter through movies and television shows. By clicking any of the titles, a details page will be generated for that movie or show. All data is pulled from the TMDB API.",
-    tech: ["React", "CSS", "API", "Vite", "React Router"],
-    demoLink: "https://allmoviesdb.netlify.app/",
-    gitLink: "https://github.com/dpapadat94/movieDB",
+    img: Roots,
+    title: "Roots Cleaning",
+    desc: "A responsive website built for a local cleaning and organization company.",
+    tech: ["React", "Tailwind", "Vite", "React Router"],
+    freelance: true,
+    demoLink: "https://rootscleaning.pro",
+    gitLink: "https://github.com/dpapadat94/Roots-Cleaning",
   },
   {
     id: 3,
@@ -34,12 +36,12 @@ const projects = [
   },
   {
     id: 4,
-    img: Quiz,
-    title: "Quiz App",
-    desc: "Quiz app is a general knowledge quiz that shows results in real time. This application also tracks your answers to display a total score on a results page when finished with entire quiz.",
-    tech: ["React", "Tailwind", "API", "Vite", "React Router"],
-    demoLink: "https://dpquizapp.netlify.app/",
-    gitLink: "https://github.com/dpapadat94/Quiz-APP",
+    img: Movie,
+    title: "Movie Database",
+    desc: "A responsive web app that allows users to search and filter through movies and television shows. By clicking any of the titles, a details page will be generated for that movie or show. All data is pulled from the TMDB API.",
+    tech: ["React", "CSS", "API", "Vite", "React Router"],
+    demoLink: "https://allmoviesdb.netlify.app/",
+    gitLink: "https://github.com/dpapadat94/movieDB",
   },
 ];
 
@@ -68,8 +70,8 @@ function Work() {
                 <a href={item.demoLink} target="_blank" rel="noreferrer">
                   <h5 className="mb-2 text-xl tracking-tight text-gray-900">
                     {item.title}
-                    {item.id === 1 && (
-                      <span className="text-base  text-green-900">
+                    {item.freelance && (
+                      <span className="text-base text-green-900">
                         {" "}
                         (Freelance work)
                       </span>
