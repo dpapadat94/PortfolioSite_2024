@@ -36,7 +36,7 @@ function Skills() {
           </div>
           <div className=" flex flex-col gap-4 py-4  justify-evenly items-center hover:scale-110 duration-500">
             <img className="w-20 " src={React} alt="html icon" />
-            <p className="">React</p>
+            <p className="">React </p>
           </div>
 
           <div className=" flex flex-col gap-4 py-4  justify-evenly items-center hover:scale-110 duration-500">
